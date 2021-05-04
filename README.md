@@ -15,7 +15,7 @@ Inside your project `.eslintrc` file
 
 ```js
 {
-    extends: "@jaysalvat/eslint-config-vue"
+    "extends": "@jaysalvat/eslint-config-vue"
 }
 ```
 
