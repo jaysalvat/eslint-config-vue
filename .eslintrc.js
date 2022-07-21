@@ -9,7 +9,6 @@ module.exports = {
     "@jaysalvat/eslint-config"
   ],
   rules: {
-    "indent": 0,
     "vue/script-indent": [ 2, 2, {
       baseIndent: 1,
       switchCase: 1,
@@ -36,5 +35,13 @@ module.exports = {
       ignoreWhenNoAttributes: true,
       ignoreWhenEmpty: true
     } ]
-  }
+  },
+  overrides: [
+    {
+      files: [ "*.vue" ],
+      rules: {
+        indent: "off"
+      }
+    }
+  ]
 }
