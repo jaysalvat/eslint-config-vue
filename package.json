@@ -26,7 +26,7 @@
   },
   "homepage": "https://github.com/jaysalvat/eslint-config-vue#readme",
   "dependencies": {
-    "@jaysalvat/eslint-config": "^1.0.2",
-    "eslint-plugin-vue": "^7.5.0"
+    "@jaysalvat/eslint-config": "^1.0.5",
+    "eslint-plugin-vue": "^9.20.1"
   }
 }
