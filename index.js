@@ -2,15 +2,17 @@
 /* eslint-env node */
 
 import vue from 'eslint-plugin-vue'
+import jaysalvat from '@jaysalvat/eslint-config'
 
 export default [
+	...jaysalvat,
   {
     languageOptions: {
       ecmaVersion: 6,
       sourceType: 'script'
     },
     plugins: {
-      vue
+	  vue
     },
     rules: {
       'vue/script-indent': [ 2, 2, {
