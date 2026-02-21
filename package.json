@@ -1,8 +1,12 @@
 {
   "name": "@jaysalvat/eslint-config-vue",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Personal Eslint config for Vue",
   "main": "index.js",
+  "type": "module",
+  "exports": {
+    ".": "./index.js"
+  },
   "private": false,
   "scripts": {
     "release": "npm version patch & npm publish",
@@ -21,12 +25,8 @@
   ],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jaysalvat/eslint-config-vue/issues"
-  },
-  "homepage": "https://github.com/jaysalvat/eslint-config-vue#readme",
   "dependencies": {
-    "@jaysalvat/eslint-config": "^1.0.5",
-    "eslint-plugin-vue": "^9.20.1"
+    "@jaysalvat/eslint-config": "^2.1.1",
+    "eslint-plugin-vue": "^10.8.0"
   }
 }
